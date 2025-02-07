@@ -25,7 +25,7 @@ const Finance = () => {
             Cum et convallis risus placerat aliquam, nunc scelerisque aliquet faucibus tincidunt.
           </p>
           <div className="flex justify-center lg:justify-start space-x-4">
-            <button className="bg-black text-white px-6 py-3 rounded-lg hover:bg-white hover:text-black hover:border-0 hover:border-black">Get Started →</button>
+            <button className="bg-black text-white px-6 py-3 rounded-lg hover:bg-white hover:text-black hover:border-2 hover:border-black">Get Started →</button>
             <button className="flex items-center text-black font-bold">
               <img className="h-8 w-8 mr-2 ml-4" src="https://cdn-icons-png.flaticon.com/512/0/375.png" />
               Watch Video
