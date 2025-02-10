@@ -15,8 +15,8 @@ const Header = () => {
                     <a href="" className="text-gray-600 font-bold hover:text-red-600">Pricing</a>
                     <a href="" className="text-gray-600 font-bold hover:text-red-600">Features</a>
                 </nav>
-                <a href="https://play.google.com/store/apps/details?id=com.dreamplug.androidapp&hl=en_IN&pli=1" target="_blank" rel="noopener noreferrer" >
-                    <button className="bg-black text-white px-12 py-5 rounded-lg ml-[686px] hover:bg-white hover:text-black hover:border-black hover:border-[1px]">Download</button>
+                <a href="https://apps.apple.com/in/app/cred-credit-cards-payments/id1428580080" target="_blank" rel="noopener noreferrer" >
+                    <button className="bg-black text-white px-12 py-4 rounded-sm ml-[686px] border border-black hover:bg-white hover:text-black hover:border-black"> Download </button>
                 </a>
                 <img src={star} />
             </header>

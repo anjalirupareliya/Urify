@@ -6,7 +6,6 @@ import whitestar from "../assets/whitestar.svg";
 import whitestar1 from "../assets/whitestar1.svg";
 import shadow from "../assets/shadow.svg";
 import sideStar from "../assets/SideStar.svg"
-import Star from "../assets/star.svg"
 
 const AppDownload = () => {
     return (
@@ -25,7 +24,7 @@ const AppDownload = () => {
                         <p className="text-base mb-8">
                             Risus Habitants Leo Egestas Mauris Diam Eget Morbi Tempus Vulputate.
                         </p>
-                        <a href="https://play.google.com/store/apps/details?id=com.dreamplug.androidapp&hl=en_IN&pli=1" target="_blank" rel="noopener noreferrer" >
+                        <a href="https://apps.apple.com/in/app/cred-credit-cards-payments/id1428580080" target="_blank" rel="noopener noreferrer" >
                             <button className="flex items-center bg-white text-black text-lg py-4 px-6 rounded-lg font-semibold hover:bg-gray-200 transition">
                                 Download App
                                 <img className="w-8 h-8 ml-3" src="https://cdn-icons-png.flaticon.com/512/154/154870.png" alt="download icon" />
@@ -33,7 +32,7 @@ const AppDownload = () => {
                         </a>
                     </div>
                 </div>
-                <img src={circle} className="absolute top-52  z-20" />
+                <img src={circle} className="absolute bottom-0 z-20" />
             </div>
         </div>
     );

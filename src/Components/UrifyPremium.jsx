@@ -4,21 +4,22 @@ import circle from "../assets/Circle.svg"
 import iphone5 from "../assets/i_phone_5.svg"
 import shadow1 from "../assets/Shadow1.svg"
 import shadow from "../assets/shadow.svg"
+import { motion } from "framer-motion"
 
 const UrifyPremium = () => {
     return (
         <div className="flex items-center bg-white min-h-screen">
             {/* Left Section */}
-            <img src={sideStar} className="ml-[80px]"/>
-            <div className="flex">
-            <img src={shadow1} className="absolute max-w-[520px] z-10 ml-[100px] mt-[90px]"/>
-                <img src={circle}/>
-                <img src={iphone5} className="absolute max-w-[420px] z-10 ml-[200px] mt-[90px]"/>
+            <img src={sideStar} className="ml-[80px]" />
+            <div className="flex ">
+                <img src={shadow1} className="absolute max-w-[520px] z-10 ml-[100px] mt-[90px]" />
+                <img src={circle} />
+                <motion.img src={iphone5} alt="" className="absolute max-w-[420px] z-10 ml-[200px] mt-[90px]" animate={{ scale: [1, 1.1, 1] }} transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut" }} />
             </div>
 
             {/* Right Section */}
             <div className="flex-1 ml-12">
-            <img src={shadow} className="absolute max-w-[720px] z-30 ml-[650px]"/>
+                <img src={shadow} className="absolute max-w-[720px] z-30 ml-[650px]" />
                 <p className="text-2xl font-bold text-red-400 font-mono">FEATURES</p>
                 <h1 className="text-5xl font-bold mb-6 mt-1">Uifry Premium</h1>
                 <div className="space-y-6">

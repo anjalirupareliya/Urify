@@ -10,6 +10,7 @@ import shadow3 from "../assets/Shadow3.svg"
 import shadow4 from "../assets/Shadow4.svg"
 import card from "../assets/advantage_i_phone.svg"
 import visa1 from "../assets/CreditCard.svg"
+import { motion } from "framer-motion"
 
 const Advantages = () => {
     return (
@@ -34,17 +35,17 @@ const Advantages = () => {
                         Suspendisse Aliquam.
                     </p>
                 </div>
-               <div className="flex">
-               <img src={shadow4} className="mt-[130px] "/>
-               <img src={card} className="mt-44 ml-[-230px] z-30"/>
-                <img src={iphone6} className="absolute"/>
-               </div>
                 <div className="flex">
-                    <img src={shadow3} className="absolute max-w-[700px] left-[220px] "/>
-                    <img src={circle} className="z-10 "/>
-                    <img src={visa1} className="mb-20 ml-[-383px] z-30"/>
+                    <img src={shadow4} className="mt-[130px]" />
+                    <motion.img src={card} alt="" className="mt-44 ml-[-230px] z-30 " animate={{ scale: [1, 1.1, 1] }} transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut" }} />
+                    <img src={iphone6} className="absolute" />
+                </div>
+                <div className="flex">
+                    <img src={shadow3} className="absolute max-w-[700px] left-[220px]" />
+                    <img src={circle} className="z-10 " />
+                    <motion.img src={visa1} alt="" className="mb-20 ml-[-383px] z-30" animate={{ scale: [1, 1.1, 1] }} transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut" }} />
                     <img src={iphone7} className="absolute max-w-[420px] z-10 ml-[200px] mt-[90px]" />
-                    <img src={sideStar} className="mb-[600px]"/>
+                    <img src={sideStar} className="mb-[600px]" />
                 </div>
                 <div className="flex flex-col items-start text-left">
                     <div className="flex items-center mb-4">
