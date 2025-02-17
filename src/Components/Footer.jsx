@@ -10,8 +10,8 @@ const Footer = () => {
                 <div className=" mx-auto grid grid-cols-2 md:grid-cols-5 gap-8 mt-32">
                     {/* Logo and Contact */}
                     <div>
-                        <a href="#" className="font-bold text-4xl flex justify-start">
-                            <img src={Fire} className="mr-1" />uifry
+                        <a href="#" className="flex justify-start">
+                            <img src={Fire} className="mr-1 w-34" />
                         </a>
                         <a href="#" className="text-base font-semibold flex justify-start mt-5 hover:text-red-600">
                             <img src={Message} className="mr-2 ml-1" />
